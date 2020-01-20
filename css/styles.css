@@ -1,0 +1,179 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p{
+  font-weight: lighter;
+}
+
+.container-fluid{
+padding: 3% 15% 7%;
+}
+
+.HeaderText{
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+
+.navbar{
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: "Montserrat-Light"
+}
+
+/* Button-Download */
+
+.Button-Download{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-Image */
+.title-Image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features Section*/
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-Box{
+  text-align: center;
+}
+
+.icon {
+  color:  #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:  #ff4c68;
+}
+
+/* testimonials Section */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.Testimonials-Image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section*/
+
+#press{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 10%;
+  margin: 0 2%;
+}
+
+/* Payment Method*/
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 4%;
+
+}
+
+@media (max-width:950px) {
+#title{
+  text-align: center;
+}
+
+  .title-Image{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+      }
+}
+
+/* CTA Section*/
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-custom{
+  padding: 2% 5%;
+}
+
+.cta-button{
+  margin: 1% 2%;
+}
+
+/* footer Section */
+
+#footer{
+  text-align: center;
+  padding: 1% 15%;
+}
+
+.footer-icon{
+  margin: 0 2% 2%;
+}
+
+.footer-p{
+  margin: 0;
+}
